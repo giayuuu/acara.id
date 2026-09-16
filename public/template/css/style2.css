@@ -1,0 +1,335 @@
+/* =======================
+   Navbar Styling
+========================== */
+.navbar {
+  background-color: #004085;
+}
+
+.nav-item .nav-link {
+  color: white;
+  transition: color 0.3s;
+  padding: 10px 15px;
+}
+
+.nav-item .nav-link:hover {
+  color: #ffcc00;
+}
+
+#ftco-navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1030; 
+}
+
+.nav-item .nav-link.active {
+  background-color: #003366;
+  color: white;
+}
+
+/* Dropdown menu */
+.nav-item.dropdown .dropdown-menu {
+  background-color: #003366;
+  color: white;
+  border-radius: 0;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.nav-item.dropdown .dropdown-item {
+  color: white;
+  padding: 10px 15px;
+}
+
+.nav-item.dropdown .dropdown-item:hover {
+  color: #ffcc00;
+}
+
+/* Hamburger Icon */
+.navbar-toggler {
+  color: white;
+  border: none;
+  box-shadow: none;
+  font-size: 16px;
+  background-color: transparent;
+}
+
+.navbar-toggler .fa-bars {
+  color: white;
+  font-size: 20px;
+}
+
+.navbar-toggler:hover,
+.navbar-toggler:hover .fa-bars {
+  color: #ffcc00;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+/* =======================
+   Breadcrumb Styling
+========================== */
+.breadcrumb .breadcrumb-item:first-child a {
+  color: black;
+}
+
+.breadcrumb .breadcrumb-item.active {
+  color: #6c757d;
+}
+
+/* =======================
+   Card Layout
+========================== */
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  width: 330px;
+  min-height: 400px;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.card h3 {
+  margin: -20px -20px 10px;
+  padding: 20px;
+  background-color: navy;
+  color: #fff;
+  font-size: 1.25rem;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  text-align: center;
+}
+
+.card p {
+  color: #555;
+  font-size: 0.95rem;
+}
+
+/* Status */
+.card .status {
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.card .status.sedang {
+  background-color: green;
+  color: white;
+}
+
+.card .status.belum {
+  background-color: gray;
+  color: white;
+}
+
+.card .status.terlaksana {
+  background-color: red;
+  color: white;
+}
+
+/* Tombol & Link */
+.card a, .card button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.card a {
+  background-color: navy;
+  color: white;
+}
+
+.card a.CloseReg {
+  background-color: #6c757d;
+  color: white;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+.card a:hover {
+  background-color: rgb(6, 6, 168);
+  color: white;
+  text-decoration: solid;
+}
+
+.card button {
+  background-color: navy;
+  color: white;
+  border: none;
+}
+
+.card button:hover {
+  background-color: rgb(6, 6, 168);
+}
+
+/* =======================
+   Table Styling
+========================== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+table thead {
+  background-color: #ffcc00;
+  color: white;
+}
+
+table th, table td {
+  padding: 12px 15px;
+  text-align: left;
+}
+
+table tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+table th {
+  font-weight: bold;
+}
+
+table td {
+  color: #333;
+}
+
+table td[colspan="4"] {
+  text-align: center;
+  font-style: italic;
+  color: #666;
+}
+
+.table-responsive-mobile {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.table-responsive-mobile table {
+    width: 100%;
+    min-width: 600px; /* atau jumlah kolom x lebar minimal masing-masing */
+    border-collapse: collapse;
+}
+
+.table-responsive-mobile th,
+.table-responsive-mobile td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* =======================
+   Utility
+========================== */
+.bg-navy {
+  background-color: #6268af;
+}
+
+  .signature-wrapper {
+    width: 100%;
+    max-width: 600px;
+    height: 200px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    position: relative;
+  }
+
+  #signature-pad {
+    width: 100%;
+    height: 100%;
+    display: block;
+    touch-action: none;
+  }
+
+.timeline-item {
+  border: 2px solid rgba(0, 0, 0, 0.1); /* border transparan dengan opacity 0.1 */
+  border-radius: 15px; /* membuat border curved */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* shadow halus */
+  padding: 15px;
+  height: 111px;
+  background-color: rgba(255, 255, 255, 0.8); /* background putih transparan agar shadow lebih terlihat */
+  transition: box-shadow 0.3s ease;
+}
+
+.timeline-item:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* shadow lebih jelas saat hover */
+}
+
+
+  
+/* =======================
+   Responsive Styling
+========================== */
+@media (max-width: 991px) {
+  .navbar-nav {
+    margin-top: 10px;
+    justify-content: center;
+  }
+
+  .navbar-collapse {
+    text-align: center;
+  }
+
+  .nav-item .nav-link {
+    color: #f8f9fa !important;
+  }
+
+  .nav-item .nav-link:hover {
+    color: #ffcc00 !important;
+  }
+
+  .navbar-toggler {
+    color: white !important;
+    border: none !important;
+    box-shadow: none !important;
+  }
+
+  .navbar-toggler .fa-bars {
+    color: white !important;
+  }
+
+  .navbar-toggler:hover,
+  .navbar-toggler:hover .fa-bars {
+    color: #ffcc00 !important;
+  }
+
+  .card {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .card-container {
+    justify-content: center;
+  }
+}

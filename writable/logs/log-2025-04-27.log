@@ -1,0 +1,1322 @@
+DEBUG - 2025-04-27 01:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 01:26:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 01:26:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 01:26:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 01:26:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-27 01:26:27 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "dashboard/history.php"
+[Method: GET, Route: history]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard/history.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard/history', [], true)
+ 3 APPPATH\Controllers\Dashboard.php(24): view('dashboard/history')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->history()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\register\\public\\index.php')
+DEBUG - 2025-04-27 01:26:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 01:27:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 01:27:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-27 01:27:08 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/participants.php"
+[Method: GET, Route: admin/participants]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/participants.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/participants', [], true)
+ 3 APPPATH\Controllers\Admin.php(15): view('admin/participants')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->participants()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\register\\public\\index.php')
+DEBUG - 2025-04-27 01:27:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-27 01:27:21 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/participants.php"
+[Method: GET, Route: admin/participants]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/participants.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/participants', [], true)
+ 3 APPPATH\Controllers\Admin.php(15): view('admin/participants')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->participants()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\register\\public\\index.php')
+DEBUG - 2025-04-27 01:43:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 01:43:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 01:44:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 01:44:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-27 01:44:13 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "dashboard/history.php"
+[Method: GET, Route: history]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard/history.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard/history', [], true)
+ 3 APPPATH\Controllers\Dashboard.php(24): view('dashboard/history')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->history()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\register\\public\\index.php')
+DEBUG - 2025-04-27 01:44:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 01:44:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 01:44:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 01:44:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-27 01:44:41 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/participants.php"
+[Method: GET, Route: admin/participants]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/participants.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/participants', [], true)
+ 3 APPPATH\Controllers\Admin.php(15): view('admin/participants')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->participants()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\register\\public\\index.php')
+DEBUG - 2025-04-27 01:44:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 01:44:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 01:44:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 01:44:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 01:45:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 01:45:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 01:45:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 01:45:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 01:45:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 01:45:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 01:45:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 01:45:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 01:45:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 01:46:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 01:46:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-27 01:46:10 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/participants.php"
+[Method: GET, Route: admin/participants]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/participants.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/participants', [], true)
+ 3 APPPATH\Controllers\Admin.php(15): view('admin/participants')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->participants()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\register\\public\\index.php')
+DEBUG - 2025-04-27 01:49:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 01:49:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 01:49:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-27 01:49:30 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/participants.php"
+[Method: GET, Route: admin/participants]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/participants.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/participants', [], true)
+ 3 APPPATH\Controllers\Admin.php(15): view('admin/participants')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->participants()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\register\\public\\index.php')
+DEBUG - 2025-04-27 01:49:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-27 01:50:08 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/participants.php"
+[Method: GET, Route: admin/participants]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/participants.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/participants', [], true)
+ 3 APPPATH\Controllers\Admin.php(15): view('admin/participants')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->participants()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\register\\public\\index.php')
+DEBUG - 2025-04-27 01:52:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-27 01:52:51 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/participants.php"
+[Method: GET, Route: admin/participants]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/participants.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/participants', [], true)
+ 3 APPPATH\Controllers\Admin.php(15): view('admin/participants')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->participants()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\register\\public\\index.php')
+DEBUG - 2025-04-27 01:52:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-27 01:52:55 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/participants.php"
+[Method: GET, Route: admin/participants]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/participants.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/participants', [], true)
+ 3 APPPATH\Controllers\Admin.php(15): view('admin/participants')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->participants()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\register\\public\\index.php')
+DEBUG - 2025-04-27 01:53:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-27 01:53:06 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/participants.php"
+[Method: GET, Route: admin/participants]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/participants.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/participants', [], true)
+ 3 APPPATH\Controllers\Admin.php(15): view('admin/participants')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->participants()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\register\\public\\index.php')
+CRITICAL - 2025-04-27 01:54:49 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/participants.php"
+[Method: GET, Route: admin/participants]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/participants.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/participants', [], true)
+ 3 APPPATH\Controllers\Admin.php(15): view('admin/participants')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->participants()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\register\\public\\index.php')
+DEBUG - 2025-04-27 01:54:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 01:55:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-27 01:55:34 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "admin/participants.php"
+[Method: GET, Route: admin/data_peserta]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin/participants.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('admin/participants', [], true)
+ 3 APPPATH\Controllers\Admin.php(15): view('admin/participants')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Admin->participants()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\register\\public\\index.php')
+DEBUG - 2025-04-27 01:59:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 01:59:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-27 01:59:18 --> mysqli_sql_exception: Unknown table 'registrasi.registrations' in C:\xampp\htdocs\register\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\register\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `registr...', 0)
+#1 C:\xampp\htdocs\register\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `registr...')
+#2 C:\xampp\htdocs\register\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `registr...')
+#3 C:\xampp\htdocs\register\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `registr...', Array, false)
+#4 C:\xampp\htdocs\register\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\register\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\register\app\Models\RegistrationModel.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\register\app\Controllers\Event.php(61): App\Models\RegistrationModel->getJoinedParticipants()
+#8 C:\xampp\htdocs\register\system\CodeIgniter.php(933): App\Controllers\Event->participants()
+#9 C:\xampp\htdocs\register\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+#10 C:\xampp\htdocs\register\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\register\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\register\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\register\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\register\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-04-27 01:59:18 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown table 'registrasi.registrations'
+[Method: GET, Route: admin/participants]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `registrations`.*, `events`.`name`, `users`.`full_name`, `users`.`jabatan`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `registrations`.`user_id`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\RegistrationModel.php(15): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Event.php(61): App\Models\RegistrationModel->getJoinedParticipants()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Event->participants()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\register\\public\\index.php')
+CRITICAL - 2025-04-27 01:59:18 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown table 'registrasi.registrations'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `registrations`.*, `events`.`name`, `users`.`full_name`, `users`.`jabatan`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `registrations`.`user_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `registrations`.*, `events`.`name`, `users`.`full_name`, `users`.`jabatan`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `registrations`.`user_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `registrations`.*, `events`.`name`, `users`.`full_name`, `users`.`jabatan`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `registrations`.`user_id`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\RegistrationModel.php(15): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Event.php(61): App\Models\RegistrationModel->getJoinedParticipants()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Event->participants()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\register\\public\\index.php')
+CRITICAL - 2025-04-27 01:59:18 --> [Caused by] mysqli_sql_exception: Unknown table 'registrasi.registrations'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `registrations`.*, `events`.`name`, `users`.`full_name`, `users`.`jabatan`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `registrations`.`user_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `registrations`.*, `events`.`name`, `users`.`full_name`, `users`.`jabatan`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `registrations`.`user_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `registrations`.*, `events`.`name`, `users`.`full_name`, `users`.`jabatan`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `registrations`.`user_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `registrations`.*, `events`.`name`, `users`.`full_name`, `users`.`jabatan`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `registrations`.`user_id`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\RegistrationModel.php(15): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Event.php(61): App\Models\RegistrationModel->getJoinedParticipants()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Event->participants()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\register\\public\\index.php')
+DEBUG - 2025-04-27 02:03:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 02:03:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 02:04:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-27 02:04:18 --> mysqli_sql_exception: Unknown table 'registrasi.registrations' in C:\xampp\htdocs\register\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\register\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `registr...', 0)
+#1 C:\xampp\htdocs\register\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `registr...')
+#2 C:\xampp\htdocs\register\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `registr...')
+#3 C:\xampp\htdocs\register\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `registr...', Array, false)
+#4 C:\xampp\htdocs\register\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\register\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\register\app\Models\RegistrationModel.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\register\app\Controllers\Event.php(61): App\Models\RegistrationModel->getJoinedParticipants()
+#8 C:\xampp\htdocs\register\system\CodeIgniter.php(933): App\Controllers\Event->participants()
+#9 C:\xampp\htdocs\register\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+#10 C:\xampp\htdocs\register\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\register\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\register\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\register\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\register\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-04-27 02:04:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown table 'registrasi.registrations'
+[Method: GET, Route: admin/participants]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `registrations`.*, `events`.`name`, `users`.`full_name`, `users`.`jabatan`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `registrations`.`user_id`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\RegistrationModel.php(15): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Event.php(61): App\Models\RegistrationModel->getJoinedParticipants()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Event->participants()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\register\\public\\index.php')
+CRITICAL - 2025-04-27 02:04:19 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown table 'registrasi.registrations'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `registrations`.*, `events`.`name`, `users`.`full_name`, `users`.`jabatan`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `registrations`.`user_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `registrations`.*, `events`.`name`, `users`.`full_name`, `users`.`jabatan`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `registrations`.`user_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `registrations`.*, `events`.`name`, `users`.`full_name`, `users`.`jabatan`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `registrations`.`user_id`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\RegistrationModel.php(15): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Event.php(61): App\Models\RegistrationModel->getJoinedParticipants()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Event->participants()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\register\\public\\index.php')
+CRITICAL - 2025-04-27 02:04:19 --> [Caused by] mysqli_sql_exception: Unknown table 'registrasi.registrations'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `registrations`.*, `events`.`name`, `users`.`full_name`, `users`.`jabatan`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `registrations`.`user_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `registrations`.*, `events`.`name`, `users`.`full_name`, `users`.`jabatan`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `registrations`.`user_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `registrations`.*, `events`.`name`, `users`.`full_name`, `users`.`jabatan`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `registrations`.`user_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `registrations`.*, `events`.`name`, `users`.`full_name`, `users`.`jabatan`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `registrations`.`user_id`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\RegistrationModel.php(15): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Event.php(61): App\Models\RegistrationModel->getJoinedParticipants()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Event->participants()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\register\\public\\index.php')
+DEBUG - 2025-04-27 02:15:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 02:15:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-27 02:15:46 --> mysqli_sql_exception: Unknown table 'registrasi.registrations' in C:\xampp\htdocs\register\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\register\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `registr...', 0)
+#1 C:\xampp\htdocs\register\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `registr...')
+#2 C:\xampp\htdocs\register\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `registr...')
+#3 C:\xampp\htdocs\register\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `registr...', Array, false)
+#4 C:\xampp\htdocs\register\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\register\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\register\app\Models\RegistrationModel.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\register\app\Controllers\Event.php(61): App\Models\RegistrationModel->getJoinedParticipants()
+#8 C:\xampp\htdocs\register\system\CodeIgniter.php(933): App\Controllers\Event->participants()
+#9 C:\xampp\htdocs\register\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+#10 C:\xampp\htdocs\register\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\register\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\register\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\register\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\register\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-04-27 02:15:46 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown table 'registrasi.registrations'
+[Method: GET, Route: admin/participants]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `registrations`.*, `events`.`name`, `users`.`full_name`, `users`.`jabatan`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `registrations`.`user_id`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\RegistrationModel.php(15): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Event.php(61): App\Models\RegistrationModel->getJoinedParticipants()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Event->participants()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\register\\public\\index.php')
+CRITICAL - 2025-04-27 02:15:46 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown table 'registrasi.registrations'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `registrations`.*, `events`.`name`, `users`.`full_name`, `users`.`jabatan`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `registrations`.`user_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `registrations`.*, `events`.`name`, `users`.`full_name`, `users`.`jabatan`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `registrations`.`user_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `registrations`.*, `events`.`name`, `users`.`full_name`, `users`.`jabatan`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `registrations`.`user_id`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\RegistrationModel.php(15): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Event.php(61): App\Models\RegistrationModel->getJoinedParticipants()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Event->participants()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\register\\public\\index.php')
+CRITICAL - 2025-04-27 02:15:46 --> [Caused by] mysqli_sql_exception: Unknown table 'registrasi.registrations'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `registrations`.*, `events`.`name`, `users`.`full_name`, `users`.`jabatan`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `registrations`.`user_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `registrations`.*, `events`.`name`, `users`.`full_name`, `users`.`jabatan`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `registrations`.`user_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `registrations`.*, `events`.`name`, `users`.`full_name`, `users`.`jabatan`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `registrations`.`user_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `registrations`.*, `events`.`name`, `users`.`full_name`, `users`.`jabatan`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `registrations`.`user_id`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\RegistrationModel.php(15): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Event.php(61): App\Models\RegistrationModel->getJoinedParticipants()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Event->participants()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\register\\public\\index.php')
+DEBUG - 2025-04-27 02:15:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 02:15:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-27 02:15:52 --> mysqli_sql_exception: Unknown table 'registrasi.registrations' in C:\xampp\htdocs\register\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\register\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `registr...', 0)
+#1 C:\xampp\htdocs\register\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `registr...')
+#2 C:\xampp\htdocs\register\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `registr...')
+#3 C:\xampp\htdocs\register\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `registr...', Array, false)
+#4 C:\xampp\htdocs\register\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\register\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\register\app\Models\RegistrationModel.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\register\app\Controllers\Event.php(61): App\Models\RegistrationModel->getJoinedParticipants()
+#8 C:\xampp\htdocs\register\system\CodeIgniter.php(933): App\Controllers\Event->participants()
+#9 C:\xampp\htdocs\register\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+#10 C:\xampp\htdocs\register\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\register\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\register\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\register\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\register\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-04-27 02:15:52 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown table 'registrasi.registrations'
+[Method: GET, Route: admin/participants]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `registrations`.*, `events`.`name`, `users`.`full_name`, `users`.`jabatan`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `registrations`.`user_id`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\RegistrationModel.php(15): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Event.php(61): App\Models\RegistrationModel->getJoinedParticipants()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Event->participants()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\register\\public\\index.php')
+CRITICAL - 2025-04-27 02:15:52 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown table 'registrasi.registrations'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `registrations`.*, `events`.`name`, `users`.`full_name`, `users`.`jabatan`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `registrations`.`user_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `registrations`.*, `events`.`name`, `users`.`full_name`, `users`.`jabatan`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `registrations`.`user_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `registrations`.*, `events`.`name`, `users`.`full_name`, `users`.`jabatan`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `registrations`.`user_id`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\RegistrationModel.php(15): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Event.php(61): App\Models\RegistrationModel->getJoinedParticipants()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Event->participants()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\register\\public\\index.php')
+CRITICAL - 2025-04-27 02:15:52 --> [Caused by] mysqli_sql_exception: Unknown table 'registrasi.registrations'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `registrations`.*, `events`.`name`, `users`.`full_name`, `users`.`jabatan`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `registrations`.`user_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `registrations`.*, `events`.`name`, `users`.`full_name`, `users`.`jabatan`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `registrations`.`user_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `registrations`.*, `events`.`name`, `users`.`full_name`, `users`.`jabatan`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `registrations`.`user_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `registrations`.*, `events`.`name`, `users`.`full_name`, `users`.`jabatan`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `registrations`.`user_id`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\RegistrationModel.php(15): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Event.php(61): App\Models\RegistrationModel->getJoinedParticipants()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Event->participants()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\register\\public\\index.php')
+DEBUG - 2025-04-27 02:20:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 02:20:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-27 02:20:54 --> mysqli_sql_exception: Unknown column 'users.jabatan' in 'field list' in C:\xampp\htdocs\register\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\register\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `event_r...', 0)
+#1 C:\xampp\htdocs\register\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `event_r...')
+#2 C:\xampp\htdocs\register\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `event_r...')
+#3 C:\xampp\htdocs\register\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `event_r...', Array, false)
+#4 C:\xampp\htdocs\register\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\register\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\register\app\Models\RegistrationModel.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\register\app\Controllers\Event.php(61): App\Models\RegistrationModel->getJoinedParticipants()
+#8 C:\xampp\htdocs\register\system\CodeIgniter.php(933): App\Controllers\Event->participants()
+#9 C:\xampp\htdocs\register\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+#10 C:\xampp\htdocs\register\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\register\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\register\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\register\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\register\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-04-27 02:20:54 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'users.jabatan' in 'field list'
+[Method: GET, Route: admin/participants]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `event_registrations`.*, `events`.`name`, `users`.`full_name`, `users`.`jabatan`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `registrations`.`user_id`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\RegistrationModel.php(15): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Event.php(61): App\Models\RegistrationModel->getJoinedParticipants()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Event->participants()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\register\\public\\index.php')
+CRITICAL - 2025-04-27 02:20:54 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'users.jabatan' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `event_registrations`.*, `events`.`name`, `users`.`full_name`, `users`.`jabatan`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `registrations`.`user_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `event_registrations`.*, `events`.`name`, `users`.`full_name`, `users`.`jabatan`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `registrations`.`user_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `event_registrations`.*, `events`.`name`, `users`.`full_name`, `users`.`jabatan`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `registrations`.`user_id`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\RegistrationModel.php(15): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Event.php(61): App\Models\RegistrationModel->getJoinedParticipants()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Event->participants()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\register\\public\\index.php')
+CRITICAL - 2025-04-27 02:20:54 --> [Caused by] mysqli_sql_exception: Unknown column 'users.jabatan' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `event_registrations`.*, `events`.`name`, `users`.`full_name`, `users`.`jabatan`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `registrations`.`user_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `event_registrations`.*, `events`.`name`, `users`.`full_name`, `users`.`jabatan`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `registrations`.`user_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `event_registrations`.*, `events`.`name`, `users`.`full_name`, `users`.`jabatan`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `registrations`.`user_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `event_registrations`.*, `events`.`name`, `users`.`full_name`, `users`.`jabatan`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `registrations`.`user_id`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\RegistrationModel.php(15): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Event.php(61): App\Models\RegistrationModel->getJoinedParticipants()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Event->participants()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\register\\public\\index.php')
+DEBUG - 2025-04-27 02:22:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 02:22:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-27 02:22:09 --> mysqli_sql_exception: Unknown column 'registrations.event_id' in 'on clause' in C:\xampp\htdocs\register\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\register\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `event_r...', 0)
+#1 C:\xampp\htdocs\register\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `event_r...')
+#2 C:\xampp\htdocs\register\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `event_r...')
+#3 C:\xampp\htdocs\register\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `event_r...', Array, false)
+#4 C:\xampp\htdocs\register\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\register\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\register\app\Models\RegistrationModel.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\register\app\Controllers\Event.php(61): App\Models\RegistrationModel->getJoinedParticipants()
+#8 C:\xampp\htdocs\register\system\CodeIgniter.php(933): App\Controllers\Event->participants()
+#9 C:\xampp\htdocs\register\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+#10 C:\xampp\htdocs\register\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\register\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\register\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\register\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\register\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-04-27 02:22:09 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'registrations.event_id' in 'on clause'
+[Method: GET, Route: admin/participants]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `event_registrations`.*, `events`.`name`, `users`.`full_name`, `users`.`position`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `registrations`.`user_id`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\RegistrationModel.php(15): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Event.php(61): App\Models\RegistrationModel->getJoinedParticipants()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Event->participants()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\register\\public\\index.php')
+CRITICAL - 2025-04-27 02:22:09 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'registrations.event_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `event_registrations`.*, `events`.`name`, `users`.`full_name`, `users`.`position`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `registrations`.`user_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `event_registrations`.*, `events`.`name`, `users`.`full_name`, `users`.`position`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `registrations`.`user_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `event_registrations`.*, `events`.`name`, `users`.`full_name`, `users`.`position`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `registrations`.`user_id`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\RegistrationModel.php(15): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Event.php(61): App\Models\RegistrationModel->getJoinedParticipants()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Event->participants()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\register\\public\\index.php')
+CRITICAL - 2025-04-27 02:22:09 --> [Caused by] mysqli_sql_exception: Unknown column 'registrations.event_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `event_registrations`.*, `events`.`name`, `users`.`full_name`, `users`.`position`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `registrations`.`user_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `event_registrations`.*, `events`.`name`, `users`.`full_name`, `users`.`position`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `registrations`.`user_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `event_registrations`.*, `events`.`name`, `users`.`full_name`, `users`.`position`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `registrations`.`user_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `event_registrations`.*, `events`.`name`, `users`.`full_name`, `users`.`position`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `registrations`.`user_id`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\RegistrationModel.php(15): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Event.php(61): App\Models\RegistrationModel->getJoinedParticipants()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Event->participants()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\register\\public\\index.php')
+DEBUG - 2025-04-27 02:23:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 02:24:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 02:24:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 02:24:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 02:24:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 02:24:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-27 02:24:25 --> mysqli_sql_exception: Unknown column 'registrations.event_id' in 'on clause' in C:\xampp\htdocs\register\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\register\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `event_r...', 0)
+#1 C:\xampp\htdocs\register\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `event_r...')
+#2 C:\xampp\htdocs\register\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `event_r...')
+#3 C:\xampp\htdocs\register\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `event_r...', Array, false)
+#4 C:\xampp\htdocs\register\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\register\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\register\app\Models\RegistrationModel.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\register\app\Controllers\Event.php(61): App\Models\RegistrationModel->getJoinedParticipants()
+#8 C:\xampp\htdocs\register\system\CodeIgniter.php(933): App\Controllers\Event->participants()
+#9 C:\xampp\htdocs\register\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+#10 C:\xampp\htdocs\register\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\register\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\register\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\register\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\register\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-04-27 02:24:25 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'registrations.event_id' in 'on clause'
+[Method: GET, Route: admin/participants]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `event_registrations`.*, `events`.`name`, `users`.`full_name`, `users`.`position`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `registrations`.`user_id`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\RegistrationModel.php(15): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Event.php(61): App\Models\RegistrationModel->getJoinedParticipants()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Event->participants()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\register\\public\\index.php')
+CRITICAL - 2025-04-27 02:24:25 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'registrations.event_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `event_registrations`.*, `events`.`name`, `users`.`full_name`, `users`.`position`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `registrations`.`user_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `event_registrations`.*, `events`.`name`, `users`.`full_name`, `users`.`position`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `registrations`.`user_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `event_registrations`.*, `events`.`name`, `users`.`full_name`, `users`.`position`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `registrations`.`user_id`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\RegistrationModel.php(15): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Event.php(61): App\Models\RegistrationModel->getJoinedParticipants()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Event->participants()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\register\\public\\index.php')
+CRITICAL - 2025-04-27 02:24:25 --> [Caused by] mysqli_sql_exception: Unknown column 'registrations.event_id' in 'on clause'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `event_registrations`.*, `events`.`name`, `users`.`full_name`, `users`.`position`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `registrations`.`user_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `event_registrations`.*, `events`.`name`, `users`.`full_name`, `users`.`position`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `registrations`.`user_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `event_registrations`.*, `events`.`name`, `users`.`full_name`, `users`.`position`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `registrations`.`user_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `event_registrations`.*, `events`.`name`, `users`.`full_name`, `users`.`position`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `registrations`.`user_id`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\RegistrationModel.php(15): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Event.php(61): App\Models\RegistrationModel->getJoinedParticipants()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Event->participants()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\register\\public\\index.php')
+DEBUG - 2025-04-27 02:26:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-04-27 02:26:50 --> mysqli_sql_exception: Unknown column 'users.jabatan' in 'field list' in C:\xampp\htdocs\register\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\xampp\htdocs\register\system\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `event_r...', 0)
+#1 C:\xampp\htdocs\register\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `event_r...')
+#2 C:\xampp\htdocs\register\system\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `event_r...')
+#3 C:\xampp\htdocs\register\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `event_r...', Array, false)
+#4 C:\xampp\htdocs\register\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\register\system\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\register\app\Models\RegistrationModel.php(15): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\register\app\Controllers\Event.php(61): App\Models\RegistrationModel->getJoinedParticipants()
+#8 C:\xampp\htdocs\register\system\CodeIgniter.php(933): App\Controllers\Event->participants()
+#9 C:\xampp\htdocs\register\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+#10 C:\xampp\htdocs\register\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\register\system\Boot.php(334): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\register\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\register\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 C:\xampp\htdocs\register\system\rewrite.php(44): require_once('C:\\xampp\\htdocs...')
+#15 {main}
+CRITICAL - 2025-04-27 02:26:50 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'users.jabatan' in 'field list'
+[Method: GET, Route: admin/participants]
+in SYSTEMPATH\Database\BaseConnection.php on line 692.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `event_registrations`.*, `events`.`name` AS `event_name`, `users`.`full_name`, `users`.`jabatan`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `event_registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `event_registrations`.`user_id`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\RegistrationModel.php(15): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Event.php(61): App\Models\RegistrationModel->getJoinedParticipants()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Event->participants()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\register\\public\\index.php')
+CRITICAL - 2025-04-27 02:26:50 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'users.jabatan' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 332.
+ 1 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `event_registrations`.*, `events`.`name` AS `event_name`, `users`.`full_name`, `users`.`jabatan`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `event_registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `event_registrations`.`user_id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `event_registrations`.*, `events`.`name` AS `event_name`, `users`.`full_name`, `users`.`jabatan`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `event_registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `event_registrations`.`user_id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `event_registrations`.*, `events`.`name` AS `event_name`, `users`.`full_name`, `users`.`jabatan`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `event_registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `event_registrations`.`user_id`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\RegistrationModel.php(15): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Event.php(61): App\Models\RegistrationModel->getJoinedParticipants()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Event->participants()
+ 9 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+10 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+14 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\register\\public\\index.php')
+CRITICAL - 2025-04-27 02:26:50 --> [Caused by] mysqli_sql_exception: Unknown column 'users.jabatan' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 327.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(327): mysqli->query('SELECT `event_registrations`.*, `events`.`name` AS `event_name`, `users`.`full_name`, `users`.`jabatan`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `event_registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `event_registrations`.`user_id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `event_registrations`.*, `events`.`name` AS `event_name`, `users`.`full_name`, `users`.`jabatan`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `event_registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `event_registrations`.`user_id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(652): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `event_registrations`.*, `events`.`name` AS `event_name`, `users`.`full_name`, `users`.`jabatan`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `event_registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `event_registrations`.`user_id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT `event_registrations`.*, `events`.`name` AS `event_name`, `users`.`full_name`, `users`.`jabatan`, `users`.`nip`
+FROM `event_registrations`
+JOIN `events` ON `events`.`id` = `event_registrations`.`event_id`
+JOIN `users` ON `users`.`id` = `event_registrations`.`user_id`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(675): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\RegistrationModel.php(15): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Event.php(61): App\Models\RegistrationModel->getJoinedParticipants()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Event->participants()
+10 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+11 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+15 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\register\\public\\index.php')
+DEBUG - 2025-04-27 02:27:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-27 02:27:19 --> ErrorException: Undefined array key "jabatan"
+[Method: GET, Route: admin/participants]
+in APPPATH\Views\event\data_peserta.php on line 18.
+ 1 APPPATH\Views\event\data_peserta.php(18): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "jabatan"', 'C:\\xampp\\htdocs\\register\\app\\Views\\event\\data_peserta.php', 18)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\register\\app\\Views\\event\\data_peserta.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('event/data_peserta', [], true)
+ 5 APPPATH\Controllers\Event.php(63): view('event/data_peserta', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Event->participants()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\register\\public\\index.php')
+DEBUG - 2025-04-27 02:28:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-27 02:28:01 --> ErrorException: Undefined array key "created_at"
+[Method: GET, Route: admin/participants]
+in APPPATH\Views\event\data_peserta.php on line 21.
+ 1 APPPATH\Views\event\data_peserta.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "created_at"', 'C:\\xampp\\htdocs\\register\\app\\Views\\event\\data_peserta.php', 21)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\register\\app\\Views\\event\\data_peserta.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('event/data_peserta', [], true)
+ 5 APPPATH\Controllers\Event.php(63): view('event/data_peserta', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Event->participants()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\register\\public\\index.php')
+DEBUG - 2025-04-27 02:29:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 02:30:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-27 02:30:35 --> ErrorException: Undefined array key "created_at"
+[Method: GET, Route: admin/participants]
+in APPPATH\Views\event\data_peserta.php on line 21.
+ 1 APPPATH\Views\event\data_peserta.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "created_at"', 'C:\\xampp\\htdocs\\register\\app\\Views\\event\\data_peserta.php', 21)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\register\\app\\Views\\event\\data_peserta.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('event/data_peserta', [], true)
+ 5 APPPATH\Controllers\Event.php(63): view('event/data_peserta', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Event->participants()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Event))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\register\\public\\index.php')
+DEBUG - 2025-04-27 02:34:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 02:35:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 02:35:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 02:35:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 02:35:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 02:35:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 02:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 02:41:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 02:41:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 02:43:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 02:43:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 02:44:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 02:44:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 02:44:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 02:44:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 02:44:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 02:45:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 02:46:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 02:46:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 02:48:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 02:48:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 02:48:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 02:48:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 02:48:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 02:48:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 02:48:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 02:48:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 02:48:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 02:49:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 02:49:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 02:49:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 02:49:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 02:49:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 02:49:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 02:50:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 02:50:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 02:50:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 02:50:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 02:50:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 02:50:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 03:01:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 03:01:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 03:01:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 03:04:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 03:04:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 03:04:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 03:05:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 03:09:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 03:09:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-27 03:09:51 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "dashboard/history.php"
+[Method: GET, Route: history]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard/history.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard/history', [], true)
+ 3 APPPATH\Controllers\Dashboard.php(24): view('dashboard/history')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->history()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\register\\public\\index.php')
+DEBUG - 2025-04-27 03:09:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 03:11:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 03:11:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 03:11:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 03:12:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 03:12:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 03:13:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 03:13:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 03:13:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 03:13:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 03:15:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 03:15:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 03:15:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 03:15:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 03:15:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 03:15:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 03:16:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 03:16:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 03:16:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 03:16:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 03:16:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 03:16:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 04:22:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 04:22:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 04:22:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 04:23:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 04:23:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 04:24:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 04:24:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 04:24:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 04:24:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-27 04:24:39 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "dashboard/history.php"
+[Method: GET, Route: history]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard/history.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard/history', [], true)
+ 3 APPPATH\Controllers\Dashboard.php(24): view('dashboard/history')
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->history()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\register\\public\\index.php')
+DEBUG - 2025-04-27 04:24:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 04:25:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 04:25:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 04:27:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 04:27:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 04:49:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 04:49:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-27 04:49:16 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "dashboard/history.php"
+[Method: GET, Route: history]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard/history.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard/history', [], true)
+ 3 APPPATH\Controllers\Dashboard.php(32): view('dashboard/history', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->history()
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\register\\public\\index.php')
+DEBUG - 2025-04-27 04:49:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 04:55:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 04:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-27 04:55:04 --> ErrorException: Undefined array key "nama_event"
+[Method: GET, Route: history]
+in APPPATH\Views\dashboard\history.php on line 43.
+ 1 APPPATH\Views\dashboard\history.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nama_event"', 'C:\\xampp\\htdocs\\register\\app\\Views\\dashboard\\history.php', 43)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\register\\app\\Views\\dashboard\\history.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard/history', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(32): view('dashboard/history', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->history()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\register\\public\\index.php')
+DEBUG - 2025-04-27 04:57:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 04:59:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 04:59:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-27 04:59:58 --> ErrorException: Undefined array key "name"
+[Method: GET, Route: history]
+in APPPATH\Views\dashboard\history.php on line 43.
+ 1 APPPATH\Views\dashboard\history.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name"', 'C:\\xampp\\htdocs\\register\\app\\Views\\dashboard\\history.php', 43)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\register\\app\\Views\\dashboard\\history.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard/history', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(32): view('dashboard/history', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->history()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\register\\public\\index.php')
+DEBUG - 2025-04-27 05:00:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 05:01:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 05:01:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 05:01:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 05:02:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 05:02:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 05:02:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 05:02:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 05:02:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 05:20:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 05:20:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 05:20:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 05:20:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 05:20:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 05:20:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 05:20:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-27 05:20:37 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\RegistrationModel::getHistoryByUserId
+[Method: GET, Route: history]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\Dashboard.php(31): CodeIgniter\Model->__call('getHistoryByUserId', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->history()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\register\\public\\index.php')
+DEBUG - 2025-04-27 05:29:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-27 05:29:03 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\RegistrationModel::getHistoryByUserId
+[Method: GET, Route: history]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\Dashboard.php(31): CodeIgniter\Model->__call('getHistoryByUserId', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->history()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\register\\public\\index.php')
+DEBUG - 2025-04-27 05:29:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 05:29:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-27 05:29:09 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\RegistrationModel::getHistoryByUserId
+[Method: GET, Route: history]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\Dashboard.php(31): CodeIgniter\Model->__call('getHistoryByUserId', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->history()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\register\\public\\index.php')
+DEBUG - 2025-04-27 05:29:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-27 05:29:28 --> ErrorException: Undefined array key "event_name"
+[Method: GET, Route: history]
+in APPPATH\Views\dashboard\history.php on line 43.
+ 1 APPPATH\Views\dashboard\history.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "event_name"', 'C:\\xampp\\htdocs\\register\\app\\Views\\dashboard\\history.php', 43)
+ 2 SYSTEMPATH\View\View.php(224): include('C:\\xampp\\htdocs\\register\\app\\Views\\dashboard\\history.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('dashboard/history', [], true)
+ 5 APPPATH\Controllers\Dashboard.php(32): view('dashboard/history', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->history()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\register\\public\\index.php')
+DEBUG - 2025-04-27 05:41:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-27 05:41:39 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\RegistrationModel::getHistoryWithEvent
+[Method: GET, Route: history]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\Dashboard.php(33): CodeIgniter\Model->__call('getHistoryWithEvent', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->history()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\register\\public\\index.php')
+DEBUG - 2025-04-27 05:41:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 05:41:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 05:42:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 05:42:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 05:42:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-27 05:42:13 --> CodeIgniter\Exceptions\BadMethodCallException: Call to undefined method App\Models\RegistrationModel::getHistoryWithEvent
+[Method: GET, Route: history]
+in SYSTEMPATH\Model.php on line 930.
+ 1 APPPATH\Controllers\Dashboard.php(33): CodeIgniter\Model->__call('getHistoryWithEvent', [...])
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Dashboard->history()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\register\\public\\index.php')
+DEBUG - 2025-04-27 05:45:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 05:47:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 05:47:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 06:07:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 06:07:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 06:07:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 06:07:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 06:07:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 06:09:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 06:09:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 06:21:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 06:22:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-04-27 06:22:04 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "(:num)"
+[Method: GET, Route: event/register/%28:num%29]
+in SYSTEMPATH\Router\Router.php on line 739.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('event/register/(:num)')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('event/register/(:num)')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\register\\public\\index.php')
+CRITICAL - 2025-04-27 06:22:23 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: "(:num)"
+[Method: GET, Route: event/register/%28:num%29]
+in SYSTEMPATH\Router\Router.php on line 739.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('event/register/(:num)')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('event/register/(:num)')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('C:\\xampp\\htdocs\\register\\public\\index.php')
+DEBUG - 2025-04-27 06:22:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 06:22:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 06:22:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 06:22:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 06:23:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 06:27:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 06:28:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 06:28:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 06:28:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 06:28:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 06:29:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 06:29:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 06:29:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 06:29:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 06:29:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 06:29:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 06:30:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 06:30:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 06:31:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 06:31:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 06:31:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 06:34:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 06:34:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 06:34:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 06:34:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 06:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 06:34:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 06:34:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 06:34:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 06:34:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-04-27 06:35:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
